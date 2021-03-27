@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+    padding-top: 800px;
+    text-align: center;
+}
+
+#img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+#welcome {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 800px;
+    height: 100%;
+    width: 100%;
+    color: whitesmoke;
+    background: linear-gradient(#1DE9B6, #0091EA);
+    position: absolute;
+    overflow: hidden;
+    display: table;
+    opacity: 1;
+    z-index: 11;
+}
+
+#bio {
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 22px;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background: black;
+    margin: 8px auto;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 30px;
+}
+
+p {
+    font-size: bold;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.ul {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+    z-index: 12;
+    cursor: pointer;
+    width: 100%;
+    background-color: white;
+    color: crimson;
+}
+
+.lis {
+    float: left;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+
+.lis:hover {
+    text-decoration: underline;
+    font-size: 25px;
+}
+.anchor{
+    font-size: 20px;
+    color: crimson;
+}
+.anchor:hover{
+    background-color: yellowgreen;
+}
+.c{
+    background-color: crimson;
+}
+i{
+    background-color: black;
+}
